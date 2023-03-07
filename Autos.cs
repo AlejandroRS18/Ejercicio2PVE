@@ -1,22 +1,14 @@
 namespace Ejercicio2PVE;
-    class Auto
+public class Automovil
+{
+    public int ID { get; set; }
+    public string Marca { get; set; }
+    public double Km { get; set; }
+    public decimal Precio { get; set; }
+
+    public override string ToString()
     {
-        public string Marca { get; set; }
-        public string Modelo { get; set; }
-        public int Anho { get; set; }
-        public double Precio { get; set; }
-
-        public Vehiculo(string marca, string modelo, int anho, double precio)
-        {
-            Marca = marca;
-            Modelo = modelo;
-            Anho = anho;
-            Precio = precio;
-        }
-
-        public override string ToString()
-        {
-            return $"Marca: {Marca} - Modelo: {Modelo} - Año: {Anho} - Precio: {Precio}";
-        }
+        return $"ID: {ID}, Marca: {Marca}, Km: {Km}, Precio: {Precio:C}";
     }
+}
     

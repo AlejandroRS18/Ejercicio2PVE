@@ -1,30 +1,66 @@
 namespace Ejercicio2PVE;
-class Concesionaria
+public class Concesionaria
+{
+    private List<Automovil> autos;
+    public int LimiteAutos { get; set; }
+    public int NumeroActualAutos { get { return autos.Count; } }
+
+    public Concesionaria(int limiteAutos)
     {
-        private List<Vehiculo> vehiculos;
+        LimiteAutos = limiteAutos;
+        autos = new List<Automovil>();
+    }
 
-        public Concesionaria()
+    public void AgregarAuto(Automovil a)
+    {
+        if (NumeroActualAutos < LimiteAutos)
         {
-            vehiculos = new List<Vehiculo>();
+            autos.Add(a);
+            Console.WriteLine($"Auto {a.ID} agregado correctamente.");
         }
-
-        public void AgregarVehiculo(Vehiculo vehiculo)
+        else
         {
-            vehiculos.Add(vehiculo);
-        }
-
-        public void VenderVehiculo(Vehiculo vehiculo)
-        {
-            vehiculos.Remove(vehiculo);
-        }
-
-        public void MostrarVehiculos()
-        {
-            Console.WriteLine("Vehículos disponibles:");
-            foreach (Vehiculo vehiculo in vehiculos)
-            {
-                Console.WriteLine(vehiculo.ToString());
-            }
-            Console.WriteLine("");
+            Console.WriteLine("La concesionaria está llena, no se puede agregar más autos.");
         }
     }
+
+    public void MostrarAuto(Automovil a)
+    {
+        Console.WriteLine(a);
+    }
+
+    public void EliminarAuto(Automovil a)
+    {
+        if (autos.Contains(a))
+        {
+            autos.Remove(a);
+            Console.WriteLine($"Auto {a.ID} eliminado correctamente.");
+        }
+        else
+        {
+            Console.WriteLine($"Auto {a.ID} no encontrado en la concesionaria.");
+        }
+    }
+
+    public void MostrarAutos()
+    {
+        if (NumeroActualAutos > 0)
+        {
+            Console.WriteLine("Autos en la concesionaria:");
+            foreach (Automovil a in autos)
+            {
+                Console.WriteLine(a);
+            }
+        }
+        else
+        {
+            Console.WriteLine("No hay autos en la concesionaria.");
+        }
+    }
+
+    public void VaciarConcesionaria()
+    {
+        autos.Clear();
+        Console.WriteLine("La concesionaria ha sido vaciada.");
+    }
+}

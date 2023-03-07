@@ -1,0 +1,15 @@
+C:\Users\alexo\OneDrive\Documentos\Lenguajes4\Programas\Ejercicio2PVE\obj\Debug\net6.0\Ejercicio2PVE.csproj.AssemblyReference.cache
+C:\Users\alexo\OneDrive\Documentos\Lenguajes4\Programas\Ejercicio2PVE\obj\Debug\net6.0\Ejercicio2PVE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexo\OneDrive\Documentos\Lenguajes4\Programas\Ejercicio2PVE\obj\Debug\net6.0\Ejercicio2PVE.AssemblyInfoInputs.cache
+C:\Users\alexo\OneDrive\Documentos\Lenguajes4\Programas\Ejercicio2PVE\obj\Debug\net6.0\Ejercicio2PVE.AssemblyInfo.cs
+C:\Users\alexo\OneDrive\Documentos\Lenguajes4\Programas\Ejercicio2PVE\obj\Debug\net6.0\Ejercicio2PVE.csproj.CoreCompileInputs.cache
+C:\Users\alexo\OneDrive\Documentos\Lenguajes4\Programas\Ejercicio2PVE\bin\Debug\net6.0\Ejercicio2PVE.exe
+C:\Users\alexo\OneDrive\Documentos\Lenguajes4\Programas\Ejercicio2PVE\bin\Debug\net6.0\Ejercicio2PVE.deps.json
+C:\Users\alexo\OneDrive\Documentos\Lenguajes4\Programas\Ejercicio2PVE\bin\Debug\net6.0\Ejercicio2PVE.runtimeconfig.json
+C:\Users\alexo\OneDrive\Documentos\Lenguajes4\Programas\Ejercicio2PVE\bin\Debug\net6.0\Ejercicio2PVE.dll
+C:\Users\alexo\OneDrive\Documentos\Lenguajes4\Programas\Ejercicio2PVE\bin\Debug\net6.0\Ejercicio2PVE.pdb
+C:\Users\alexo\OneDrive\Documentos\Lenguajes4\Programas\Ejercicio2PVE\obj\Debug\net6.0\Ejercicio2PVE.dll
+C:\Users\alexo\OneDrive\Documentos\Lenguajes4\Programas\Ejercicio2PVE\obj\Debug\net6.0\refint\Ejercicio2PVE.dll
+C:\Users\alexo\OneDrive\Documentos\Lenguajes4\Programas\Ejercicio2PVE\obj\Debug\net6.0\Ejercicio2PVE.pdb
+C:\Users\alexo\OneDrive\Documentos\Lenguajes4\Programas\Ejercicio2PVE\obj\Debug\net6.0\Ejercicio2PVE.genruntimeconfig.cache
+C:\Users\alexo\OneDrive\Documentos\Lenguajes4\Programas\Ejercicio2PVE\obj\Debug\net6.0\ref\Ejercicio2PVE.dll
