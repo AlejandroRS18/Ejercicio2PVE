@@ -1,3 +1,4 @@
+namespace Ejercicio2PVE;
 class Concesionaria
     {
         private List<Vehiculo> vehiculos;
